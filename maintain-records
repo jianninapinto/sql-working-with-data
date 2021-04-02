@@ -1,0 +1,12 @@
+INSERT INTO people 
+(first_name, last_name, quiz_points, team, city, state_code, shirt_or_hat)
+VALUES
+('Walters', 'St.John', '93', 'Baffled Badgers', 'Bufalo', 'NY', 'hat'),
+('Emeralds', 'Chou', '92', 'Angry Ants', 'Topeka', 'KS', 'shirt');
+
+UPDATE people
+SET shirt_or_hat='shirt'
+WHERE first_name='Bonnie' AND last_name='Brooks';
+
+DELETE FROM people 
+WHERE first_name='Lois' AND last_name='Hart';
